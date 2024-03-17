@@ -7,7 +7,7 @@ The code is a Python program using the Pygame library to create a puzzle game wh
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 8/10](#Rating)
+- [Rating: 7/10](#Rating)
 
 # About
 
@@ -23,4 +23,6 @@ pygame, pygame.sprite, random, sys, pymunk, neat, os, math, matplotlib.pyplot
 
 # Rating
 
-The code is well-structured and organized, using object-oriented programming principles and encapsulation. However, it could benefit from more descriptive variable names and adding comments to clarify the purpose of sections or functions. Despite these improvements, it is a solid implementation of a game using Pygame and NEAT.
+The code uses a simple neural network-based algorithm using the NEAT library to train and evolve agents to navigate a maze-like environment and collect food. It is easy to read and understand, with clear variable and function names. The code is moderately modular, with components like the `Food` and `Enemies` classes encapsulating their respective functionalities. Important sections of the code are commented for better understanding.
+However, the code has some cons, such as the extensive use of global variables, which could lead to issues with variable scope, readability, and maintainability. Refactoring to reduce reliance on global variables is recommended. The code could benefit from further organization and structuring, particularly by separating the main loop logic from the NEAT algorithm evaluation. Define constants for magic numbers, such as screen dimensions, food generation intervals, and enemy speeds, at the beginning of the code or in a separate configuration file for easier modification.
+To improve the code, refactor the code to minimize global variables, separate the NEAT algorithm evaluation logic from the main loop logic, define constants for magic numbers, and implement robust error handling mechanisms, such as try-except blocks, to handle potential errors during file I/O operations, library calls, or unexpected conditions.
