@@ -2,6 +2,11 @@
 
 The code is a Python program using the Pygame library to create a puzzle game where enemies collect colored foods to gain points. It uses the NEAT algorithm to control the game's behavior. The code initializes the Pygame environment, sets up the game window, and defines classes for text, food, and enemy objects. It also implements the algorithm.
 
+[![Static Badge](https://img.shields.io/badge/random,-blue)](https://pypi.org/project/random,/)
+[![Static Badge](https://img.shields.io/badge/neat,-purple)](https://pypi.org/project/neat,/)
+[![Static Badge](https://img.shields.io/badge/matplotlib-pink)](https://pypi.org/project/matplotlib/)
+[![Static Badge](https://img.shields.io/badge/pygame-orange)](https://pypi.org/project/pygame/)
+
 ## Table of Contents
 
 - [About](#about)
